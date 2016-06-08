@@ -1,0 +1,15 @@
+[package]
+name = "ft_linear_regression"
+version = "0.1.0"
+authors = ["sle-guil"]
+
+[[bin]]
+name = "learning"
+path = "learning/main.rs"
+
+[[bin]]
+name = "display"
+path = "display/main.rs"
+
+[dependencies]
+csv = "0.14.4"
